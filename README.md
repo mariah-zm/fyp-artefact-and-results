@@ -30,6 +30,6 @@ make
 ```
 5. CMake should have now generated an executable called `university`. To run the simulation, execute the command:
 ```
-./university path/to/config path/to/results
+./university path/to/config/file [path/to/results/directory]
 ```
 in which the first argument should be the path to the configuration file, and the second argument is optional which should specify where to output the results of the simulation if these are desired. This artefact comes with a [config](https://github.com/mariah-zm/fyp-artefact-and-results/case-study/config.json) file that can be used to run the simulation.
