@@ -1,0 +1,759 @@
+{
+  "meta": {
+    "size": {
+      "width": 750,
+      "height": 1250
+    },
+    "stepTime": {
+      "hours": 0,
+      "minutes": 0,
+      "seconds": 10
+    }
+  },
+  "population": {
+    "size": 1000,
+    "studentProportion": 0.6,
+    "professorProportion": 0.2,
+    "adminProportion": 0.2
+  },
+  "calendar": {
+    "ICT": [
+      {
+        "name": "Computer Logic Lecture",
+        "location": "ICTH1",
+        "start": 900,
+        "end": 1100
+      },
+      {
+        "name": "Data Structures and Algorithms Lecture",
+        "location": "ICTH2",
+        "start": 1200,
+        "end": 1400
+      },
+      {
+        "name": "Software Engineering Lecture",
+        "location": "ICTH1",
+        "start": 1500,
+        "end": 1700
+      }
+    ],
+    "MEDICINE": [
+      {
+        "name": "Microbiology Lecture",
+        "location": "MDH1",
+        "start": 800,
+        "end": 1000
+      },
+      {
+        "name": "Pharmacology Lecture",
+        "location": "MDH1",
+        "start": 1400,
+        "end": 1600
+      },
+      {
+        "name": "Cell Biology and Biochemistry Lecture",
+        "location": "MDH2",
+        "start": 1000,
+        "end": 1200
+      }
+    ],
+    "LAW": [
+      {
+        "name": "Introduction to Law Lecture",
+        "location": "LAWH1",
+        "start": 900,
+        "end": 1100
+      },
+      {
+        "name": "European Law",
+        "location": "LAWH2",
+        "start": 1600,
+        "end": 1800
+      }
+    ],
+    "BUSINESS": [
+      {
+        "name": "Foundations and Applications of Economics Lecture",
+        "location": "BUSH1",
+        "start": 1000,
+        "end": 1200
+      },
+      {
+        "name": "Business Statistics Lecture",
+        "location": "BUSH2",
+        "start": 1300,
+        "end": 1500
+      }
+    ]
+  },
+  "buildings": [
+    {
+      "name": "LAW_FACULTY",
+      "capacity": 250,
+      "width": 200,
+      "height": 400,
+      "x": 514,
+      "y": 34,
+      "entrance": {
+        "x": 514,
+        "y": 234
+      },
+      "lectureHalls": [
+        {
+          "name": "LAWH1",
+          "capacity": 75,
+          "width": 75,
+          "height": 100,
+          "x": 529,
+          "y": 309,
+          "entrance": {
+            "x": 566,
+            "y": 309
+          }
+        },
+        {
+          "name": "LAWH2",
+          "capacity": 75,
+          "width": 100,
+          "height": 150,
+          "x": 624,
+          "y": 309,
+          "entrance": {
+            "x": 661,
+            "y": 309
+          }
+        }
+      ],
+      "rooms": [
+        {
+          "name": "LAWSR",
+          "capacity": 75,
+          "width": 150,
+          "height": 150,
+          "x": 539,
+          "y": 59,
+          "entrance": {
+            "x": 589,
+            "y": 209
+          },
+          "workspaces": [
+            {
+              "name": "LAW_WS_1",
+              "x": 539,
+              "y": 59,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "LAW_WS_2",
+              "x": 579,
+              "y": 59,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "LAW_WS_3",
+              "x": 619,
+              "y": 59,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "LAW_WS_4",
+              "x": 539,
+              "y": 99,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "LAW_WS_5",
+              "x": 579,
+              "y": 99,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "LAW_WS_6",
+              "x": 619,
+              "y": 99,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "LAW_WS_7",
+              "x": 539,
+              "y": 139,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "LAW_WS_8",
+              "x": 579,
+              "y": 139,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "LAW_WS_9",
+              "x": 619,
+              "y": 139,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ICT_FACULTY",
+      "capacity": 300,
+      "width": 200,
+      "height": 400,
+      "x": 34,
+      "y": 814,
+      "entrance": {
+        "x": 234,
+        "y": 1014
+      },
+      "lectureHalls": [
+        {
+          "name": "ICTH1",
+          "capacity": 75,
+          "width": 75,
+          "height": 100,
+          "x": 49,
+          "y": 1089,
+          "entrance": {
+            "x": 86,
+            "y": 1089
+          }
+        },
+        {
+          "name": "ICTH2",
+          "capacity": 75,
+          "width": 100,
+          "height": 150,
+          "x": 144,
+          "y": 1089,
+          "entrance": {
+            "x": 181,
+            "y": 1089
+          }
+        }
+      ],
+      "rooms": [
+        {
+          "name": "ICTSR",
+          "capacity": 75,
+          "width": 150,
+          "height": 150,
+          "x": 59,
+          "y": 839,
+          "entrance": {
+            "x": 134,
+            "y": 989
+          },
+          "workspaces": [
+            {
+              "name": "ICT_WS_1",
+              "x": 59,
+              "y": 839,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "ICT_WS_2",
+              "x": 99,
+              "y": 839,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "ICT_WS_3",
+              "x": 139,
+              "y": 839,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "ICT_WS_4",
+              "x": 59,
+              "y": 879,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "ICT_WS_5",
+              "x": 99,
+              "y": 879,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "ICT_WS_6",
+              "x": 139,
+              "y": 879,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "ICT_WS_7",
+              "x": 59,
+              "y": 919,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "ICT_WS_8",
+              "x": 99,
+              "y": 919,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "ICT_WS_9",
+              "x": 139,
+              "y": 919,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MEDICINE_FACULTY",
+      "capacity": 350,
+      "width": 200,
+      "height": 400,
+      "x": 34,
+      "y": 34,
+      "entrance": {
+        "x": 234,
+        "y": 234
+      },
+      "lectureHalls": [
+        {
+          "name": "MDH1",
+          "capacity": 75,
+          "width": 75,
+          "height": 100,
+          "x": 49,
+          "y": 309,
+          "entrance": {
+            "x": 86,
+            "y": 309
+          }
+        },
+        {
+          "name": "MDH2",
+          "capacity": 75,
+          "width": 100,
+          "height": 150,
+          "x": 144,
+          "y": 309,
+          "entrance": {
+            "x": 181,
+            "y": 309
+          }
+        }
+      ],
+      "rooms": [
+        {
+          "name": "MDSR",
+          "capacity": 75,
+          "width": 150,
+          "height": 150,
+          "x": 59,
+          "y": 59,
+          "entrance": {
+            "x": 134,
+            "y": 209
+          },
+          "workspaces": [
+            {
+              "name": "MED_WS_1",
+              "x": 59,
+              "y": 59,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "MED_WS_2",
+              "x": 99,
+              "y": 59,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "MED_WS_3",
+              "x": 139,
+              "y": 59,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "MED_WS_4",
+              "x": 59,
+              "y": 99,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "MED_WS_5",
+              "x": 99,
+              "y": 99,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "MED_WS_6",
+              "x": 139,
+              "y": 99,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "MED_WS_7",
+              "x": 59,
+              "y": 139,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "MED_WS_8",
+              "x": 99,
+              "y": 139,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "MED_WS_9",
+              "x": 139,
+              "y": 139,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BUSINESS_FACULTY",
+      "capacity": 400,
+      "width": 200,
+      "height": 400,
+      "x": 514,
+      "y": 814,
+      "entrance": {
+        "x": 514,
+        "y": 1014
+      },
+      "lectureHalls": [
+        {
+          "name": "BUSH1",
+          "capacity": 75,
+          "width": 75,
+          "height": 100,
+          "x": 529,
+          "y": 1089,
+          "entrance": {
+            "x": 566,
+            "y": 1089
+          }
+        },
+        {
+          "name": "BUSH2",
+          "capacity": 75,
+          "width": 100,
+          "height": 150,
+          "x": 624,
+          "y": 1089,
+          "entrance": {
+            "x": 661,
+            "y": 1089
+          }
+        }
+      ],
+      "rooms": [
+        {
+          "name": "BUSSR",
+          "capacity": 75,
+          "width": 150,
+          "height": 150,
+          "x": 539,
+          "y": 839,
+          "entrance": {
+            "x": 614,
+            "y": 989
+          },
+          "workspaces": [
+            {
+              "name": "BUS_WS_1",
+              "x": 549,
+              "y": 849,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "BUS_WS_2",
+              "x": 579,
+              "y": 849,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "BUS_WS_3",
+              "x": 609,
+              "y": 849,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "BUS_WS_4",
+              "x": 549,
+              "y": 879,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "BUS_WS_5",
+              "x": 579,
+              "y": 879,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "BUS_WS_6",
+              "x": 609,
+              "y": 879,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "BUS_WS_7",
+              "x": 549,
+              "y": 909,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "BUS_WS_8",
+              "x": 579,
+              "y": 909,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            },
+            {
+              "name": "BUS_WS_9",
+              "x": 609,
+              "y": 909,
+              "width": 30,
+              "height": 30,
+              "capacity": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LIBRARY",
+      "capacity": 450,
+      "width": 200,
+      "height": 300,
+      "x": 514,
+      "y": 474,
+      "entrance": {
+        "x": 514,
+        "y": 624
+      },
+      "workspaces": [
+        {
+          "name": "LIB_WS_1",
+          "x": 524,
+          "y": 484,
+          "width": 50,
+          "height": 50,
+          "capacity": 10
+        },
+        {
+          "name": "LIB_WS_2",
+          "x": 584,
+          "y": 484,
+          "width": 50,
+          "height": 50,
+          "capacity": 10
+        },
+        {
+          "name": "LIB_WS_3",
+          "x": 524,
+          "y": 544,
+          "width": 50,
+          "height": 50,
+          "capacity": 10
+        },
+        {
+          "name": "LIB_WS_4",
+          "x": 584,
+          "y": 544,
+          "width": 50,
+          "height": 50,
+          "capacity": 10
+        },
+        {
+          "name": "LIB_WS_5",
+          "x": 524,
+          "y": 604,
+          "width": 50,
+          "height": 50,
+          "capacity": 10
+        },
+        {
+          "name": "LIB_WS_6",
+          "x": 584,
+          "y": 604,
+          "width": 50,
+          "height": 50,
+          "capacity": 10
+        },
+        {
+          "name": "LIB_WS_7",
+          "x": 524,
+          "y": 664,
+          "width": 50,
+          "height": 50,
+          "capacity": 10
+        },
+        {
+          "name": "LIB_WS_8",
+          "x": 584,
+          "y": 664,
+          "width": 50,
+          "height": 50,
+          "capacity": 10
+        },
+        {
+          "name": "LIB_WS_9",
+          "x": 524,
+          "y": 724,
+          "width": 50,
+          "height": 50,
+          "capacity": 10
+        },
+        {
+          "name": "LIB_WS_10",
+          "x": 584,
+          "y": 724,
+          "width": 50,
+          "height": 50,
+          "capacity": 10
+        }
+      ]
+    },
+    {
+      "name": "UNI_GATE_01",
+      "capacity": 50,
+      "width": 180,
+      "height": 50,
+      "x": 284,
+      "y": 34
+    },
+    {
+      "name": "UNI_GATE_02",
+      "capacity": 50,
+      "width": 180,
+      "height": 50,
+      "x": 284,
+      "y": 1164
+    },
+    {
+      "name": "CANTEEN",
+      "capacity": 200,
+      "width": 200,
+      "height": 300,
+      "x": 34,
+      "y": 474,
+      "entrance": {
+        "x": 234,
+        "y": 624
+      },
+      "vendingMachines": [
+        {
+          "name": "VENDING_MACHINE_1",
+          "width": 20,
+          "height": 15,
+          "x": 124,
+          "y": 494
+        },
+        {
+          "name": "VENDING_MACHINE_2",
+          "width": 20,
+          "height": 15,
+          "x": 124,
+          "y": 754
+        }
+      ]
+    },
+    {
+      "name": "QUADRANGLE",
+      "capacity": 150,
+      "width": 180,
+      "height": 850,
+      "x": 284,
+      "y": 174,
+      "vendingMachines": [
+        {
+          "name": "VENDING_MACHINE_3",
+          "width": 20,
+          "height": 15,
+          "x": 364,
+          "y": 200
+        }
+      ],
+      "coffee": [
+        {
+          "name": "COFFEE_STALL",
+          "width": 50,
+          "height": 20,
+          "x": 349,
+          "y": 994
+        }
+      ]
+    }
+  ]
+}

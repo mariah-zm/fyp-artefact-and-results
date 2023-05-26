@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cstdlib>
+#include <unistd.h>
+#include <stddef.h>
+#include <chrono>
+#include <fstream>
+
+#include "flecs/flecs.h"
+#include <boost/random.hpp>
+
+#include "world/world.h"
+#include "config/config.h"
+#include "rules/rules.h"
+#include "components/trace/trace.h"
+#include "components/actions/actions.h"
+#include "components/needs/needs.h"
+#include "components/traits/traits.h"
+#include "components/components/components.h"
+#include "components/calendar/calendar.h"
+#include "components/environment/environment.h"
+
+using namespace std;
