@@ -8,6 +8,21 @@ void checkInventory(flecs::entity e, Active const &active, Inventory &inventory)
 
 int main(int argc, char **argv)
 {
+    if (argc < 2)
+    {
+        cout << "-- USAGE INFORMATION --------------" << endl;
+        cout << "./university path/to/config/file [path/to/results/directory]" << endl;
+        cout << "You must provide at least one argument" << endl;
+        return -1;
+    }
+    else if (argc > 3)
+    {
+        cout << "-- USAGE INFORMATION --------------" << endl;
+        cout << "./university path/to/config/file [path/to/results/directory]" << endl;
+        cout << "You provided too many arguments" << endl;
+        return -1;
+    }
+    
     // Initialise flecs world and world object
     flecs::world world;
     World worldObj = World(&world, argv[1]);

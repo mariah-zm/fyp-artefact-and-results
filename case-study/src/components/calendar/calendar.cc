@@ -39,8 +39,6 @@ Calendar::Node *Calendar::insertInterval(Calendar::Node *root, Calendar::Interva
         return new Node(interval);
     }
 
-    // TODO: Add logic for when added event overlaps root
-
     // If the given interval has a start time less than the root node's interval start time, insert it into the left subtree
     if (interval.start < root->interval.start)
         root->left = insertInterval(root->left, interval);
